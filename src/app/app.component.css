@@ -1,0 +1,111 @@
+/* Estilos para el componente principal */
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header */
+  .app-header {
+    background-color: #b45309;
+    color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+  }
+  
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .logo h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .nav-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .nav-link {
+    padding: 0.25rem 0;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #fef3c7;
+  }
+  
+  .nav-link.active {
+    font-weight: 700;
+    border-bottom: 2px solid white;
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex: 1;
+  }
+  
+  /* Footer */
+  .app-footer {
+    background-color: #92400e;
+    color: white;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-info {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-info h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .footer-info p {
+    color: #fef3c7;
+    margin: 0;
+  }
+  
+  .footer-copyright {
+    font-size: 0.875rem;
+  }
+  
+  /* Media Queries */
+  @media (min-width: 768px) {
+    .header-container {
+      flex-direction: row;
+    }
+  
+    .logo {
+      margin-bottom: 0;
+    }
+  
+    .footer-container {
+      flex-direction: row;
+    }
+  
+    .footer-info {
+      margin-bottom: 0;
+    }
+  }
+  
