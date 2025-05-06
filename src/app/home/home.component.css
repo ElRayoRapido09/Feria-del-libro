@@ -1,6 +1,11 @@
 /* Estilos para la página de inicio */
 
 /* Hero Section */
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
 .hero-section {
     background-color: #d97706;
     color: white;
@@ -106,6 +111,7 @@
   .gallery-content {
     padding: 1rem;
     background-color: white;
+    text-align: center;
   }
   
   .gallery-title {
